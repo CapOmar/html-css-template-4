@@ -1,0 +1,330 @@
+:root {
+  --blue-color: #0075ff;
+  --blue-color-alt: #0d69d5;
+  --orange-color: #f59e0b;
+  --green-color: #22c55e;
+  --red-color: #f44336;
+  --gray-color: #888;
+}
+  
+/* start box  */
+
+.d-flex {
+  display: flex;
+}
+.f-wrap{
+  flex-wrap: wrap;
+}
+.d-block{
+  display: block;
+}
+.d-grid{
+  display: grid;
+}
+.gap-20{
+  gap: 20px;
+}
+.align-center {
+  align-items: center;
+}
+.w-full {
+  width: 100%;
+}
+.w-fit{
+  width: fit-content;
+}
+@media(max-width:767px){
+  .block-mobile{
+    display: block;
+  }
+}
+/* End box  */
+/* start padding + margin  */
+.m-0{
+  margin: 0px;
+}
+.mt-0 {
+  margin-top: 0px;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mb-5{
+  margin-bottom: 5px;
+}
+.m-10{
+  margin: 10px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mr-10 {
+  margin-right: 10px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+.mt-20{
+  margin-top: 20px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mr-20{
+  margin-right: 20px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.ml-20{
+  margin-left: 20px;
+}
+.p-5 {
+  padding: 5px;
+}
+.p-10 {
+  padding: 10px;
+}
+.p-15 {
+  padding: 15px;
+}
+.p-20 {
+  padding: 20px;
+}
+.pt-20{
+  padding-top: 20px;
+}
+.pb-20{
+  padding-bottom: 20px;
+}
+.rad-6 {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.red-6 {
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.rad-10{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.red-10 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.half-br{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/* End padding + margin  */
+/* start color  */
+.bg-white {
+  background-color: white;
+}
+.bg-eee{
+  background-color: #eee;
+}
+.bg-blue{
+  background-color: #0075ff;
+}
+.bg-green{
+  background-color:var(--green-color);
+}
+.bg-red{
+  background-color:var(--red-color);
+}
+.bg-orange{
+  background-color: var(--orange-color);
+}
+.bg-gray{
+  background-color:#dbdada
+}
+.bg-eee{
+  background-color: #eee;
+}
+/* End color  */
+/* start position */
+.p-relative {
+  position: relative;
+}
+.p-absolute {
+  position: absolute;
+}
+/* End position */
+/* start font  */
+
+.txt-c {
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .txc-c-mobile {
+    text-align: center;
+  }
+}
+.c-black {
+  color: black;
+}
+.c-red{
+  color: var(--red-color);
+}
+.c-gray{
+  color:var(--gray-color)
+}
+.c-grey{
+  color:var(--gray-color)
+}
+.c-white{
+  color: white;
+}
+.c-blue{
+  color: var(--blue-color);
+}
+.c-orange{
+  color: var(--orange-color);
+}
+.c-green{
+  color: var(--green-color);
+}
+.fs-13{
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fw-bold{
+  font-weight: bold;
+}
+.br-none{
+  border: none;
+}
+.br-ccc{
+  border: 1px solid #ccc;
+}
+.br-eee{
+  border:1px solid #eee;
+
+}
+/* End font  */
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+/* start component  */
+.between-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.center-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-shape{
+  padding: 2px 5px;
+  border-radius: 6px;
+  color: white;
+  /* background-color: #0075ff; */
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.btn-shape:hover{
+  /* background-color: #0d69d5; */
+}
+
+/* -------------------------- */
+/* toggle box  */
+.toggle-checkbox{
+  -webkit-appearance: none;
+  appearance: none;
+
+}
+.toggle-switch{
+  width: 80px;
+    height: 32px;
+    background-color: #d3d0d0;
+    border-radius: 20px;
+    position: relative;
+}
+.toggle-switch::before{
+  content: "\f00d";
+  font-family: var(--fa-style-family-classic);
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: white;
+  left: 3px;
+  top: 2px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #d3d0d0;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.toggle-checkbox:checked + .toggle-switch{
+  background-color:var(--blue-color);
+}
+.toggle-checkbox:checked + .toggle-switch::before{
+    content: "\f00c";
+    color: #0075ff;
+    left: 50px;
+
+}
+.cur{
+  cursor: pointer;
+}
+/* -------------------------- */
+/*
+<label >
+  <input class="toggle-checkbox" type="checkbox">
+  <div class="toggle-switch"></div>
+</label>
+*/
+/* End component  */
